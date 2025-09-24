@@ -19,7 +19,16 @@ public class hashmaps
          map.put("orange",0.75);
 
          //removing things (remove method)
-            map.remove("banana");
+            map.remove("banana");// and now bannanna is gone
+
+        //getting things (get method)
+            double price = map.get("apple");
+            System.out.println(price);
+
+        //checking if a key exists (containsKey method)
+            boolean hasOrange = map.containsKey("orange");
+            System.out.println(hasOrange);
+            
          System.out.println(map);
     }
 }
